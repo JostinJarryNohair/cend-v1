@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import EducationLevelSelector from "../components/EducationLevelSelector";
+import Navigation from "../components/Navigation";
 
 export default function Subscribe() {
   const [formData, setFormData] = useState({
@@ -37,11 +38,7 @@ export default function Subscribe() {
 
   return (
     <div className="min-h-screen bg-floral-white">
-      <div className="bg-green-600 p-4">
-        <h1 className="text-2xl font-logo text-white container mx-auto">
-          CEND
-        </h1>
-      </div>
+      <Navigation />
       <main className="container mx-auto mt-8 px-4">
         <div className="max-w-md mx-auto">
           <h2 className="text-xl font-medium mb-6">
